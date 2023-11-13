@@ -2,7 +2,9 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  cursor: default;
 }
+
 
 html,
 body,
@@ -53,6 +55,8 @@ header {
 .card-body {
   min-height: 100px;
 }
+
+
 
 .card-footer {
   text-align: center;
@@ -116,6 +120,10 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+}
+
+#password:hover, #password:active {
+  border: solid hsl(360, 91%, 36%);
 }
 
 @media (max-width: 690px) {
