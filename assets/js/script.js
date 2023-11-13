@@ -74,3 +74,17 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+/*
+//Allow copy/pasting of generated password when password field is clicked
+password.addEventListender("click", copyFunction);
+
+function copyFunction() {
+  var copyText = document.querySelector("#password");
+  navigator.clipboard.writeText(copyText.value);
+
+  
+
+  alert("Password copied to clipboard");
+};
+*/
