@@ -23,15 +23,15 @@ Access the site at https://ericlyn4s.github.io/js-password-generator/.
 
 From the landing page, select the 'Generate Password' button.
 
-<image src="assets/images/js-landning-page.png" alt="The landing page; title of 'Password Generator' at the top, a white box headed with the text 'Generate a Password', an inner output area that generates as blank, a red 'Generate Password' button at the bottom of the main box" width="200"/>
+<image src="assets/images/js-landing-page.png" alt="The landing page; title of 'Password Generator' at the top, a white box headed with the text 'Generate a Password', an inner output area that generates as blank, a red 'Generate Password' button at the bottom of the main box" width="450"/>
 
 Five questions will appear as alert boxes at the top of the page. First, input the number of characters required. This must be a number between 8 and 128, otherwise the alert will reappear until that requirement is met. If a non-whole number is input, the program will round down to nearest integer. Next, the program will ask four character requirement questions. The user must select at least one of these criteria. 
 
-<image src="assets/images/js-criteria-selection.png" alt="The first question alerted once the user hits 'Generate Password'. This alert asks 'Password character requirement? (Between 8 and 128)" width="200"/>
+<image src="assets/images/js-criteria-selection.png" alt="The first question alerted once the user hits 'Generate Password'. This alert asks 'Password character requirement? (Between 8 and 128)" width="450"/>
 
 After all five questions are answered (and meet the requirements described above), the site generates a password in the center of the page.
 
-<image src="assets/images/js-password-generated.png" alt="A random password has been generated in the main box" width="200"/>
+<image src="assets/images/js-password-generated.png" alt="A random password has been generated in the main box" width="450"/>
 
 ## Credits
 
