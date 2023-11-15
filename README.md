@@ -33,6 +33,11 @@ After all five questions are answered (and meet the requirements described above
 
 <image src="assets/images/js-password-generated.png" alt="A random password has been generated in the main box" width="450"/>
 
+Finally, the box will prompt you to click on the password to copy to clipboard. Moving your cursor over the box, the border will turn red to further encourage the user to interact with the text. Clicking this box copies the password to the clipboard, with a "Copied to Clipboard" prompt appearing up top.
+
+<image src="assets/images/js-password-copied.png" alt="User clicked the generated password, an alert box appeared showing 'Password copied to clipboard'" width="450"/>
+
+
 ## Credits
 
 I had a tutor session on 11/14/23 with Scott Everett.

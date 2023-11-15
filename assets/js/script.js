@@ -1,12 +1,11 @@
 // Assignment code here
 function generatePassword() {
-
   //get required password length (between 8 and 128 charaters)
   do {
     var charRequirement = parseInt(prompt("Password character requirement? (Between 8 and 128)"))
   } while (charRequirement < 8 || charRequirement > 128);
   if (!charRequirement) {
-    return;
+    return "";
   };
 
   //get character type requirements (with at least one selected)
@@ -57,6 +56,7 @@ function generatePassword() {
     };
    //once loop has gone through all four character type checks/selections, loop back to the top. Continute this until you've reached the required character limit. 
   };
+  document.querySelector("#Subheader").textContent = "Click Password to Copy";
   return finalPassword;
 };
 
@@ -75,9 +75,9 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-/*
+
 //Allow copy/pasting of generated password when password field is clicked
-password.addEventListender("click", copyFunction);
+password.addEventListener("click", copyFunction);
 
 function copyFunction() {
   var copyText = document.querySelector("#password");
@@ -87,4 +87,3 @@ function copyFunction() {
 
   alert("Password copied to clipboard");
 };
-*/
